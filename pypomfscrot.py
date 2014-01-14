@@ -1,5 +1,4 @@
 #!/usr/bin/env python27
-import urllib2
 import argparse
 import os
 def which(program):
