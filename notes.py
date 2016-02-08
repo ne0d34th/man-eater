@@ -14,7 +14,7 @@ def clearscreen():
 	os.system('cls' if os.name == 'nt' else 'clear')
 	return
 
-connection = sqlite3.connect("data")
+connection = sqlite3.connect("data") # you need 1 sqlite3 database file
 cursor = connection.cursor()
 
 color = "\033[31m" # red
