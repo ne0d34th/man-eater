@@ -17,9 +17,9 @@ def clearscreen():
 connection = sqlite3.connect("data")
 cursor = connection.cursor()
 
-color = "\033[31m"
-resetColor = "\033[0m"
-title = "Here's your to do list, "+color+"onee-sama"+resetColor+"~"
+color = "\033[31m" # red
+resetColor = "\033[0m" # reset color terminal
+title = "Here's your to do list~"
 
 def printSchedule(schedule):
 	print ""
