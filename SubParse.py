@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 # Subtitle file parser class by ne0d34th
-# currently only support srt
+# currently only support srt 
 # feel free to copy as long credit is given, it's a crap anyway
 
 class SubParse(object):
