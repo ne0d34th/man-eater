@@ -1,5 +1,9 @@
 #!/usr/bin/env python2
 
+# SSA Subtitle file parser by ne0d34th
+# should be still buggy
+# feel free to copy as long credit is given
+
 class SSAParse(object):
 	__file = None
 	__styles = []
